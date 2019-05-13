@@ -5,7 +5,7 @@ published: true
 tags: [dataviz, altair, vega-lite, observable, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 altair-loader:
-  altair-chart1: "charts/PaFreightAltairMap.json"
+  altair-chart1: "charts/PaFreightAltairMap2.json"
   altair-chart2: "charts/PaFreightByModeAltairChart.json"
   
 
