@@ -2,7 +2,7 @@
 title: "PA Freight"
 date: 2019-05-13
 published: true
-tags: [dataviz, altair, vega-lite, observable, holoviews]
+tags: [dataviz, altair]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
 altair-loader:
   altair-chart1: "charts/PaFreightAltairMap2.json"
@@ -13,9 +13,9 @@ toc: true
 toc_sticky: true
 ---
 
-This post will show interactive charts produced using [Altair](https://altair-viz.github.io) of [PA Freight Data] (https://ops.fhwa.dot.gov/freight/freight_analysis/faf/index.htm)
+This post will show interactive charts produced using [Altair](https://altair-viz.github.io) of [PA Freight Data](https://ops.fhwa.dot.gov/freight/freight_analysis/faf/index.htm)
 
-## Chart 1- Total PA Freight from 2012 to 2017
+## Total PA Freight from 2012 to 2017
 
 Below is a map of the total KTons of freight delivered to each state originating from Pennsylvania.
 
@@ -46,7 +46,7 @@ chart = alt.Chart(data).mark_geoshape().properties(
 chart
 ```
 
-## Chart 2- PA Freight by Mode
+## PA Freight by Mode
 
 Below is a chart showing the total KTons of freight BY MODE delivered to each state originating from Pennsylvania.
 
